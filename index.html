@@ -1,0 +1,182 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <link rel="stylesheet" href="style.css" />
+  <title>Happy Place</title>
+</head>
+
+<body>
+  <!-- navbar -->
+  <div class="nav-wrapper">
+    <ul>
+      <button onClick="reloadWindow()">
+        <img src="./Images/happy.webp" alt="Happy logo" />
+      </button>
+      <li><a href="#home"> Home </a></li>
+      <li><a href="#imsad"> Feeling Sad </a></li>
+      <li><a href="#talk2me"> Talk to us </a></li>
+    </ul>
+  </div>
+
+  <!-- Home -->
+  <div id="home">
+    <section class="section-1">
+      <div class="home-message">
+        <div class="parallax-image1"></div>
+        <section class="section-2">
+          <h1>Coping With Sad Feelings</h1>
+          <p>
+            Feeling sad? You're not alone. Everyone feels sad at times.
+            Sometimes sad feelings last only a moment. Other times, they last
+            a little longer.
+          </p>
+
+          <p>
+            It’s OK to feel sad. But sad feelings don't have to take over your
+            mood or ruin your day. You can do things to help yourself feel
+            better. When sad feelings ease away, a happier mood can take their
+            place.
+          </p>
+
+          <h3>"I just wanna be Happy."</h3>
+
+          <div class="row-1">
+            <div class="col-1">
+              <p>
+                I'm lonely. What kind of loneliness? Every kind. I feel
+                disconnected. Abandoned. As always. Repetition. So what, my
+                love? So what? At first, I just wanted to run away. Now I have
+                no where else to run to, nothing to run from. I don't belong
+                anywhere, I don't want to go anywhere, I just want to be
+                happy.
+              </p>
+            </div>
+            <div class="col-1">
+              <p>
+                We begin from the recognition that all beings cherish
+                happiness and do not want suffering. It then becomes both
+                morally wrong and pragmatically unwise to pursue only one's
+                own happiness oblivious to the feelings and aspirations of all
+                others who surround us as members of the same human family.
+                The wiser course is to think of others when pursuing our own
+                happiness.
+              </p>
+            </div>
+          </div>
+          <div class="parallax-image2"></div>
+        </section>
+      </div>
+    </section>
+  </div>
+
+  <!-- Feeling Sad -->
+  <div id="imsad">
+    <section class="section-3">
+      <div class="row-2">
+        <div class="col-2">
+          <h3>First, don’t feel bad about feeling sad.</h3>
+          When something negative happens in your life, it can seem like your
+          world is ending. But instead of suppressing or dismissing your
+          emotions—either by distracting yourself or keeping up a good
+          front—you should actually embrace them. “All emotions are important
+          to experience and have valuable information for us about our lives”
+          <p></p>
+        </div>
+
+        <div class="col-2">
+          <h3>Embrace your emotions.</h3>
+          <p>
+            When you avoid sadness altogether, you’re actually doing more harm
+            than good. “You can’t heal what you don’t feel”. As uncomfortable
+            as it may be, acknowledging and embracing your sadness is actually
+            the first step to feeling better. "Instead of running away or
+            eating something, drinking something, or yelling at someone,
+            breathe it in and embrace it.
+          </p>
+        </div>
+
+        <div class="col-2">
+          <h3>Find what does make you happy.</h3>
+          <p>
+            Doing something that'll make you laugh (think: listening to a
+            comedy podcast, or even watching a cat video on YouTube).
+            "Laughing in response to pain and sadness can be a terrific coping
+            mechanism," says Bellace, adding, "Laughter releases endorphins
+            similar to exercise, reduces the stress hormone cortisol, and
+            increases dopamine (a.k.a. 'the feel-good-hormone')." Of course,
+            the grieving process takes time, "so there is no shame in not
+            wanting to laugh for a while," assures Bellace.
+          </p>
+        </div>
+
+        <div class="col-2">
+          <h3>Spend time in nature.</h3>
+          <p>
+            Rockmore recommends experiencing the outdoors with all five of
+            your senses, which she calls “behavioral activation.” Pay
+            attention to what you see, feel, hear, smell and possibly taste in
+            nature, and it may help you out of your slump. “Getting out of
+            hibernation and being active stimulates the nervous system and
+            gives people the opportunity to see beauty in the world,” says
+            Rockmore.
+          </p>
+        </div>
+      </div>
+    </section>
+    <div class="people-imgs">
+      <h2> "Share your smile with the world." </h2>
+      <div class="img-row-1">
+        <div class="img-col-1">
+          <img src="./Images/people-1.jpg" alt="people-1" />
+        </div>
+
+        <div class="img-col-1">
+          <img src="./Images/people-2.jpg" alt="people-2" />
+        </div>
+
+        <div class="img-col-1">
+          <img src="./Images/people-3.jpg" alt="people-2" />
+        </div>
+
+      </div>
+
+      <div class="img-row-2">
+        <div class="img-col-2">
+          <img src="./Images/people-4.jpg" alt="people-1" />
+        </div>
+
+        <div class="img-col-2">
+          <img src="./Images/people-5.jpg" alt="people-2" />
+        </div>
+
+        <div class="img-col-2">
+          <img src="./Images/people-6.jpg" alt="people-2" />
+        </div>
+      </div>
+      <p class="bottom-p"> So don’t wait until tomorrow …choose happiness now! </p>
+    </div>
+
+    <!-- Talk to me -->
+
+    <div id="talk2me">
+      <div>
+        <form>
+          <h3> Talk to me .. !</h3>
+          <input type="text" placeholder="First name" required />
+          <input type="text" placeholder="Last name" required /> <br>
+          <input type="email" placeholder="Email" required />
+          <input type="text" placeholder="Mood(Happy/Sad/Others)" required /> <br>
+          <textarea placeholder="Describe yourself here..."></textarea> <br>
+          <button> Submit </button>
+        </form>
+      </div>
+    </div>
+
+    <script src="main.js"></script>
+</body>
+
+</html>
